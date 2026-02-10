@@ -1,6 +1,6 @@
 # TouYube Downloader
 
-Batch downloader that converts YouTube videos to MP3 and automatically adds title, artist, year, and cover image using yt-dlp and FFmpeg.
+Batch downloader that converts videos to MP3 and automatically adds title, artist, year, and cover image using yt-dlp and FFmpeg.
 
 Supports downloading multiple links from a text file.
 
@@ -37,11 +37,11 @@ Make sure FFmpeg is added to PATH.
 
 Create a file called `links.txt`.
 
-Inside it, put one YouTube link per line:
+Inside it, put one link per line:
 
 ```txt
-https://www.youtube.com/watch?v=xxxx
-https://www.youtube.com/watch?v=yyyy
+https://www.touyube.com/watch?v=xxxx
+https://www.touyube.com/watch?v=yyyy
 ```
 
 Save the file.
@@ -88,20 +88,6 @@ sudo apt install adb
 ```
 
 ---
-
-### Usage
-
-1. Connect your phone via USB
-2. Enable File Transfer mode
-3. Run:
-
-```bash
-python copy_to_phone.py
-```
-
-(or the provided script)
-
-MP3 files will be copied to your phone’s Music folder.
 
 ## Troubleshooting
 
