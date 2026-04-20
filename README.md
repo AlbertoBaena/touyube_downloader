@@ -19,8 +19,13 @@ pip install yt-dlp
 
 ### Install FFmpeg
 
-**Linux**
+**First, install it on Python:**
+```bash
+pip install ffmpeg
+```
 
+**Second, you can install it for using it out of Python console**
+**Linux**
 ```bash
 sudo apt install ffmpeg
 ```
@@ -30,6 +35,8 @@ sudo apt install ffmpeg
 Download from: [https://ffmpeg.org/download.html](https://ffmpeg.org/download.html)
 
 Make sure FFmpeg is added to PATH.
+
+
 
 ## Quick Start (For Dummies)
 
