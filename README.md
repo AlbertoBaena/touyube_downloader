@@ -1,116 +1,22 @@
 # TouYube Downloader
-
-Batch downloader that converts videos to MP3 and automatically adds title, artist, year, and cover image using yt-dlp and FFmpeg.
-
+Batch downloader that converts videos to MP3 and MP4 using YT-DLP and FFMPEG.
 Supports downloading multiple links from a text file.
 
 ## Requirements
-
-Install the following:
-
-- Python 3.8+
-- FFmpeg
-- yt-dlp
-
-### Install yt-dlp
+Run this command to install YT-DLP and FFMPEG, which are necessary:
 ```bash
-pip install yt-dlp
+python.exe -m pip install yt-dlp ffmpeg
 ```
 
-### Install FFmpeg
-
-**First, install it on Python:**
-```bash
-pip install ffmpeg
-```
-
-**Second, you can install it for using it out of Python console**
-**Linux**
-```bash
-sudo apt install ffmpeg
-```
-
-**Windows / macOS**
-
-Download from: [https://ffmpeg.org/download.html](https://ffmpeg.org/download.html)
-
-Make sure FFmpeg is added to PATH.
-
-
-
-## Quick Start (For Dummies)
-
-### 1. Create a Links File
-
-Create a file called `links.txt`.
-
-Inside it, put one link per line:
-
-```txt
-https://www.touyube.com/watch?v=xxxx
-https://www.touyube.com/watch?v=yyyy
-```
-
-Save the file.
-
-### 2. Run the Script
-
-Open a terminal in the project folder and run:
-
-```bash
-python download_mp3.py links.txt
-```
-
-### 3. Get Your Music
-
-Your MP3 files will appear in:
-
-```txt
-mp3_downloads/
-```
-
-Each file includes:
-
-* Song title
-* Artist
-* Year
-* Cover image
-
-## Copy to Phone (Optional Scripts)
-
-Helper scripts are included to copy music to your phone.
-
-Useful if you sync music often.
-
-### Requirements
-
-* USB cable
-* Phone in File Transfer (MTP) mode
-* ADB (for some scripts)
-
-Install ADB (Linux):
-
-```bash
-sudo apt install adb
-```
+## Usage
+### MP3 Download
+1. Drop the links on links_mp3.txt
+2. Run "DOWNLOAD MUSIC.BAT"
+### MP4 Download
+1. Drop the links on links_mp4.txt
+2. Run "DOWNLOAD VIDEO.BAT"
 
 ---
-
-## Troubleshooting
-
-### FFmpeg Not Found
-
-Check:
-
-```bash
-ffmpeg -version
-```
-
-If it fails, reinstall FFmpeg.
-
-### Download Fails
-
-Some videos may be blocked or unavailable. They will be skipped.
 
 ## Notes
 
