@@ -1,7 +1,4 @@
 # TouYube Downloader
-Batch downloader that converts videos to MP3 and MP4 using YT-DLP and FFMPEG.
-Supports downloading multiple links from a text file.
-
 ## Requirements
 Run this command to install YT-DLP and FFMPEG, which are necessary:
 ```bash
