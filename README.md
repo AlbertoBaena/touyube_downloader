@@ -1,7 +1,7 @@
 # TouYube Downloader
 ## Usage
 ```bash
-python scripts/touyoube_downloader.py format('mp3'/'mp4') links_file output_folder
+python touyoube_downloader.py format('mp3'/'mp4') links_file output_folder
 ```
 
 ---
