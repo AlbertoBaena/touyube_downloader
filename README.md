@@ -1,22 +1,19 @@
 # TouYube Downloader
-## Requirements
-Run this command to install YT-DLP and FFMPEG, which are necessary:
-```bash
-python.exe -m pip install yt-dlp ffmpeg
-```
-
 ## Usage
-### MP3 Download
-1. Drop the links on links_mp3.txt
-2. Run "DOWNLOAD MUSIC.BAT"
-### MP4 Download
-1. Drop the links on links_mp4.txt
-2. Run "DOWNLOAD VIDEO.BAT"
+```bash
+python scripts/touyoube_downloader.py format('mp3'/'mp4') links_file output_folder
+```
 
 ---
 
-## Notes
+## Requirements
+TouYube Donwloader needs YT-DLP and FFMPEG, but if they are not found they will be installed automatically.
+Even so, if you want to install theme manually you can run this command:
+```bash
+python -m pip install yt-dlp ffmpeg
+```
 
+## Notes
 * Playlists are disabled
 * Existing files are overwritten
 * Temporary files are deleted automatically
